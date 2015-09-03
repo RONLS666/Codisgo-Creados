@@ -1,0 +1,74 @@
+*{
+	margin: 30px;
+	padding: 0px;
+}
+
+body
+{
+	background-color: #708090;*
+	color: white;
+	font-family: Arial;
+}
+
+.led
+{
+
+	
+	
+	width: 200px;
+	margin: 0 auto; 
+	background: blue;
+	padding-top: 5px;
+	padding-bottom: 250px;
+	margin-top: 30px;
+	border-radius: 100px 100px 0px 0px;
+	border: 1px solid black;
+}
+
+#base
+{
+	width: 250px;
+	margin: 0 auto; 
+	background-color: rgba(0, 0, 255, 0.50);
+	padding-top: 5px;
+	padding-bottom: 50px;
+	margin-top: 0px;
+	border-radius: 0px 0px 0px 0px;
+	border: 1px solid black;
+}
+
+#anodo
+{
+	width: 15px;
+	margin-left: 570px;
+	background: #C0C0C0;
+	padding-top: 5px;
+	padding-bottom: 250px;
+	margin-top: 0px;
+	border-radius: 0px 0px 0px 0px;
+	border: 1px solid black;
+}
+
+#catodo
+{
+	width: 15px;
+	margin-left: 660px;
+	background: #C0C0C0;
+	padding-top: 5px;
+	padding-bottom: 210px;
+	margin-top: -287px;
+	border-radius: 0px 0px 0px 0px;
+	border: 1px solid black;
+}
+
+#azul
+{
+	transition: all 0.5s ease;
+	background-color: rgba(0, 0, 255, 0.50);
+}
+
+#azul:hover
+{
+	background-color: rgba(0, 0, 255, 5);
+	box-shadow: inset 0 0 20px white;
+}
